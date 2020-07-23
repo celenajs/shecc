@@ -1,0 +1,580 @@
+    #ACF {
+        .header-content {
+            @include respond-to ('xxxs') {}
+
+            @include respond-to ('xxs') {}
+
+            @include respond-to ('xs') {}
+
+            @include respond-to ('s') {
+                padding-left: 20px;
+            }
+
+            @include respond-to ('m') {
+                padding-left: 20px;
+            }
+
+            @include respond-to ('l') {
+                padding-left: 20px;
+            }
+
+            @include respond-to ('xl') {
+                padding-left: 20px;
+            }
+
+
+            .et_pb_header_content_wrapper {
+                @include respond-to ('xxxs') {
+                    width: 302px;
+                    margin-top: 30px;
+                }
+
+                @include respond-to ('xxs') {
+                    width: 360px;
+                    margin-top: 30px;
+                }
+
+                @include respond-to ('xs') {
+                    width: 410px;
+                    margin-top: 30px;
+                }
+
+                @include respond-to ('s') {
+                    width: 400px;
+                    margin-top: 30px;
+                }
+
+                @include respond-to ('m') {
+                    margin-top: 30px;
+                }
+
+                @include respond-to ('l') {
+                    margin-top: 30px;
+                }
+
+                @include respond-to ('xl') {
+                    margin-top: 30px;
+                }
+
+                @include respond-to ('xxl') {
+                    margin-top: 30px;
+                }
+
+                background: $pink;
+                padding: 40px;
+                width: 450px;
+                margin-top: 50px;
+                border-radius: 20px;
+
+                .banner-top {
+                    @include respond-to ('xxxs') {
+                        font-size: 28px;
+                        font-weight: 900;
+                    }
+
+                    @include respond-to ('xxs') {
+                        font-size: 28px;
+                        font-weight: 900;
+                    }
+
+                    @include respond-to ('xs') {
+                        font-size: 28px;
+                        font-weight: 900;
+                    }
+
+                    @include respond-to ('s') {
+                        font-size: 40px;
+                        font-weight: 900;
+                    }
+
+                    @include respond-to ('m') {
+                        font-size: 40px;
+                        font-weight: 900;
+                    }
+
+                    @include respond-to ('l') {
+                        font-size: 40px;
+                        font-weight: 900;
+                    }
+
+                    @include respond-to ('xl') {
+                        font-size: 40px;
+                        font-weight: 900;
+                    }
+
+                    @include respond-to ('xxl') {
+                        font-size: 40px;
+                        font-weight: 900;
+                    }
+
+                    font-size: 41px;
+                    font-weight: 900;
+
+                    .banner-down {
+                        @include respond-to ('xxxs') {
+                            font-size: 55px;
+                            font-weight: 900;
+                            margin-bottom: 20px;
+                        }
+
+                        @include respond-to ('xxs') {
+                            font-size: 55px;
+                            line-height: 1em;
+                            margin-bottom: 20px;
+
+                        }
+
+                        @include respond-to ('xs') {
+                            font-size: 55px;
+                            line-height: 1em;
+                        }
+
+                        @include respond-to ('s') {
+                            font-size: 80px;
+                            line-height: 1em;
+                        }
+
+                        @include respond-to ('m') {
+                            font-size: 80px;
+                            line-height: 1em;
+                        }
+
+                        @include respond-to ('l') {
+                            font-size: 80px;
+                            line-height: 1em;
+                        }
+
+                        @include respond-to ('xl') {
+                            font-size: 80px;
+                            line-height: 1em;
+                        }
+
+                        @include respond-to ('xxl') {
+                            font-size: 80px;
+                            line-height: 1em;
+                        }
+
+                        font-size: 80px;
+                        line-height: 1em;
+
+
+                    }
+
+                }
+            }
+        }
+    }
+
+
+    #ACF {
+        .banner-wrapper {
+            p {
+                font-size: 16px;
+                font-weight: normal;
+            }
+        }
+
+    }
+
+
+    #white {
+        margin: 30px 0px;
+
+        a.button {
+            @include respond-to ('xxxs') {
+                font-size: 14px;
+            }
+
+            @include respond-to ('xxs') {
+                font-size: 14px;
+            }
+
+            @include respond-to ('xs') {
+                font-size: 14px;
+            }
+
+            @include respond-to ('s') {
+                font-size: 18px;
+            }
+
+            @include respond-to ('m') {
+                font-size: 18px;
+            }
+
+            @include respond-to ('l') {
+                font-size: 18px;
+            }
+
+            @include respond-to ('xl') {
+                font-size: 18px;
+            }
+
+            @include respond-to ('xxl') {
+                font-size: 18px;
+            }
+
+            background-color: $white;
+            padding: 10px 60px;
+            border-radius: 30px;
+            color: $purple;
+            text-align:left;
+            font-weight: bold;
+        }
+
+    }
+
+    #purple {
+        margin: 30px 0px;
+
+        a.button {
+            background-color: $purple;
+            padding: 10px 60px;
+            border-radius: 30px;
+            color: $white;
+            text-align: left;
+            font-weight: bold;
+        }
+
+    }
+
+    // second
+    #Second_section {
+        .et_pb_blurb_description h2 {
+            @include respond-to ('xxxs') {
+                font-size: 30px;
+            }
+
+            @include respond-to ('xxs') {
+                font-size: 14px;
+            }
+
+            @include respond-to ('xs') {
+                font-size: 14px;
+            }
+
+            @include respond-to ('s') {
+                font-size: 18px;
+            }
+
+            @include respond-to ('m') {
+                font-size: 18px;
+            }
+
+            @include respond-to ('l') {
+                font-size: 18px;
+            }
+
+            @include respond-to ('xl') {
+                font-size: 18px;
+            }
+
+            @include respond-to ('xxl') {
+                font-size: 18px;
+            }
+            font-size: 50px;
+            font-weight: bold;
+            color: $green;
+            text-align: center;
+            .et_pb_text_inner{
+                @include respond-to ('xxxs') {
+display: none;               
+ }
+    
+                @include respond-to ('xxs') {
+                    display: none;               
+                }
+    
+                @include respond-to ('xs') {
+                    display: none;               
+                }
+    
+                @include respond-to ('s') {
+                    display: none;               
+                }
+    
+                @include respond-to ('m') {
+                    display: none;               
+                }
+    
+                @include respond-to ('l') {
+                    font-size: 18px;
+                }
+    
+                @include respond-to ('xl') {
+                    font-size: 18px;
+                }
+    
+                @include respond-to ('xxl') {
+                    font-size: 18px;
+                }
+
+            }
+        }
+    }
+
+
+
+
+
+
+
+    //third
+
+    #third-section {
+        .top {
+            margin-right: 1%;
+            width: 32%;
+
+            .left {
+                background-color: $darkpurple;
+                margin-top: -150px;
+                border-radius: 22px;
+                padding-top: 180px;
+                padding-left: 20px;
+                padding-right: 20px;
+                padding-bottom: 50px;
+
+                .et_pb_blurb_description p {
+                    margin: 20px 0px;
+                }
+            }
+        }
+    }
+
+    #third-section {
+        .top-mid {
+            margin-right: 1%;
+            width: 32%;
+            margin-top: -80px;
+
+            .mid {
+                background-color: $purple;
+                border-radius: 22px;
+                margin-top: -156px;
+                padding-top: 180px;
+                padding-left: 20px;
+                padding-right: 20px;
+                padding-bottom: 50px;
+
+                .et_pb_blurb_description p {
+                    margin: 20px 0px;
+                }
+
+            }
+
+        }
+    }
+
+
+    // ABOUTS
+    #About-section {
+        .left {
+            margin-left: -100px;
+        }
+    }
+
+
+    // Third-section
+
+    #third-section {
+        .top {
+            margin-right: 1%;
+            width: 32%;
+            
+                  
+
+                
+
+            .right {
+                background-color: $pink;
+                border-radius: 22px;
+                margin-top: -150px;
+                padding-top: 180px;
+                padding-left: 20px;
+                padding-right: 20px;
+                padding-bottom: 50px;
+
+                .et_pb_blurb_description p {
+                    margin: 20px 0px;
+                }
+           
+        }
+
+        }
+    }
+
+    #third-section {
+        .white {
+            margin: 50px;
+
+            a.button {
+                background-color: $white;
+                padding: 10px 60px;
+                border-radius: 30px;
+                color: $purple;
+            }
+        }
+    }
+
+
+
+
+    #fifth-section {
+        .team {
+
+            margin-top: -300px;
+
+            .person {
+                margin-right: 1%;
+                width: 24%;
+
+                h4 {
+                    font-size: 24px;
+
+                    p {
+                        font-size: 20px;
+                    }
+                }
+
+            }
+
+        }
+
+    }
+
+    #time {
+        .timer {
+            margin-right: 1%;
+            width: 24%;
+            background-color: #ffffff24;
+            padding: 120px 0px;
+            border-radius: 10px;
+
+            .et_pb_module_header span {
+                font-size: 40px;
+                color: $yellow;
+                font-weight: bold;
+
+
+            }
+        }
+
+    }
+
+    #gallery {
+        .top {
+            width: 32.3333%;
+            margin-right: 1%;
+
+            .green {
+                margin-top: -80px;
+
+                h4 {
+                    font-size: 20px;
+                    font-weight: bold;
+                    text-transform: uppercase;
+
+                    p {
+                        font-size: 20px;
+
+                        .et_pb_button.purple {
+                            background: $purple;
+                            text-transform: uppercase;
+                            font-size: 18px;
+                            width: 205px;
+                            border-radius: 25px;
+                            color: $white;
+                            border-color: $purple;
+                        }
+                    }
+
+                }
+
+            }
+        }
+    }
+
+
+    //galery slider
+    #gallery-slider {
+        .carousel-slider {
+            .carousel-slider__item {
+                img {
+                    border-radius: 10px;
+                }
+            }
+        }
+
+    }
+
+    // socialmediabuttons
+    #ssb-container {
+        background-color: $pink;
+        border-radius: 10px;
+        padding: 15px;
+        text-align: center;
+
+        ul {
+            li {
+                span {
+                    line-height: 40px;
+                    width: 40px;
+                    border-radius: 30px;
+                    height: 40px;
+                    margin: 0;
+                    text-align: center;
+                    background: $white;
+                    display: inline-block;
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+
+    #Contact-section {
+        .contact-box {
+            margin-top: -150px;
+            padding: 100px;
+            border-radius: 15px;
+
+            .et_pb_text_inner h3 {
+                padding-bottom: 0;
+                text-align: center;
+                color: $white;
+                font-size: 20px;
+            }
+
+        }
+
+    }
+
+    // contacts styling forms
+    #gform_fields_1 li input[type=text] {
+        line-height: 51px;
+        font-size: 16px;
+        border-radius: 5px;
+        border: 1px solid #dfdfdf;
+        padding: 0 20px;
+    }
+
+    #input_1_5 {
+        height: 185px;
+        width: 100%;
+        border-radius: 5px;
+        border: 1px solid #dfdfdf;
+    }
+
+    #gform_submit_button_1 {
+        background: $green;
+        line-height: 57px !important;
+        border-radius: 33px;
+        color: $white;
+        width: 311px;
+        font-size: 18px;
+        border: 1px solid $green;
+
+    }
+
+    #gform_wrapper_1 {
+        margin-top: -22px;
+    }

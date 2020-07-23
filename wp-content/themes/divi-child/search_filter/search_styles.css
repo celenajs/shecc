@@ -1,0 +1,58 @@
+
+form {
+    text-align: center;
+    padding: 20px 0px;
+}
+input[type=text]{
+    padding:10px;
+    border:2px solid #666;
+    border-radius: 3px;
+    width:500px;
+    margin:10px;
+}
+select {
+    padding: 10px;
+    border-radius: 3px;
+    margin:5px;
+
+
+}
+input[type="number"] {
+    padding: 10px;
+    border-radius: 3px;
+    border:2px solid #666;
+}
+input[type="submit"]{
+    padding: 10px;
+    border: 2px #666;
+    border-radius: 3px;
+    background: red;
+    margin: 5px;
+    color: #fff;
+    font-weight: bold;
+
+}
+h1.entry-title.main_title{
+    text-align:center;
+}
+.search_results {
+    padding: 55px 0;
+}
+ul.search_result li {
+    display: block;
+    margin-right: 30px;
+}
+ul.search_result {
+    display: flex;
+    flex-wrap: wrap;
+}
+ul.page-numbers {
+    list-style-type: none;
+}
+ul.page-numbers li {
+    display: inline;
+}
+.text-description {
+    width: 300px;
+    padding-bottom: 20px;
+}

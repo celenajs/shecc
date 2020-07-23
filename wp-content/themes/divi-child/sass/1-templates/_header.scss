@@ -1,0 +1,203 @@
+#header{
+  
+  margin-top: 10px;
+  .header-wrap{
+    @include respond-to ('xxxs') {
+      white-space: nowrap!important;
+    }
+    @include respond-to ('xxs') {
+      white-space: nowrap!important;
+    }
+    @include respond-to ('xs') {
+      white-space: nowrap!important;
+    }
+    @include respond-to ('s') {
+      white-space: nowrap!important;
+    }
+    @include respond-to ('m') {
+      white-space: nowrap!important;
+    }
+    @include respond-to ('l') {
+      white-space: nowrap!important;
+    }
+    @include respond-to ('xl') {
+      white-space: nowrap!important;
+    }
+    @include respond-to ('xxl') {
+      white-space: nowrap!important;
+    }
+    white-space: nowrap;
+  
+    .left {
+      @include respond-to ('xxxs') {
+width: 15%;
+      }
+      @include respond-to ('xxs') {
+        width: 15%;
+      }
+      @include respond-to ('xs') {
+        width: 15%;
+      }
+      @include respond-to ('s') {
+        width: 15%;
+      }
+      @include respond-to ('m') {
+        width: 15%;
+      }
+      @include respond-to ('l') {
+        width: 15%;
+      }
+      @include respond-to ('xl') {
+
+      }
+      @include respond-to ('xxl') {
+        
+      }
+      white-space: nowrap;
+    .logo{
+      @include respond-to ('xxxs') {
+        position: absolute;
+        top: 16px;
+              }
+              @include respond-to ('xxs') {
+                position: absolute;
+                top: 16px;
+              }
+              @include respond-to ('xs') {
+                position: absolute;
+                top: 4px;
+              }
+              @include respond-to ('s') {
+                width: max-content;
+                position: absolute;
+                top: 15px;
+              }
+              @include respond-to ('m') {
+                width: max-content;
+                position: absolute;
+                top: 16px;
+              }
+              @include respond-to ('l') {
+                width: max-content;
+                position: absolute;
+                top: 16px;
+              }
+              @include respond-to ('xl') {
+                width: max-content;
+                position: absolute;
+                top: 16px;
+              }
+              @include respond-to ('xxl') {
+                width: max-content;
+                position: absolute;
+                top: -10px;
+              }
+
+    span.et_pb_image_wrap img{
+      @include respond-to ('xxxs') {
+        position: relative;
+        width: 220px;
+        height: auto;
+              }
+              @include respond-to ('xxs') {
+                position: relative;
+                width: 250px;
+                height: auto;
+              }
+              @include respond-to ('xs') {
+                position: relative;
+                width: 300px;
+                height: auto;
+              }
+              @include respond-to ('s') {
+                height: auto;
+                            }
+              @include respond-to ('m') {
+                position: relative;
+                width: 220px;
+                height: auto;
+              }
+              @include respond-to ('l') {
+                position: relative;
+                width: 220px;
+                height: auto;
+              }
+              @include respond-to ('xl') {
+                position: relative;
+                width: 150px;
+                height: auto;
+              }
+              @include respond-to ('xxl') {
+                position: relative;
+                width: 320px;
+                height: auto;
+              }
+
+
+
+         
+    }
+    }
+    }
+  }
+
+}
+
+
+#header{
+  .header-wrap{
+    .right{
+      @include respond-to ('xxxs') {
+        width: 15%;
+              }
+              @include respond-to ('xxs') {
+                width: 15%;
+              }
+              @include respond-to ('xs') {
+                width: 15%;
+              }
+              @include respond-to ('s') {
+                width: 15%;
+              }
+              @include respond-to ('m') {
+                width: 15%;
+              }
+              @include respond-to ('l') {
+                width: 15%;
+              }
+              @include respond-to ('xl') {
+                width: 10%;
+              }
+              @include respond-to ('xxl') {
+              }
+              white-space: nowrap;
+              .pink{
+                @include respond-to ('xl') {
+                  font-size:13px;
+                  margin-top:10px;      
+                }
+                @include respond-to ('xxl') {
+                  font-size:16px;
+                  margin-top:10px;      
+                }
+                font-size:16px;
+              }
+
+    }
+  }
+}
+ul#menu-home{
+  li{
+    a{
+      @include respond-to ('xl') {
+        font-size:13px;
+      }
+      @include respond-to ('xxl') {
+        font-size:16px;
+      }
+      font-size:16px;
+  
+    }
+  }
+
+}
